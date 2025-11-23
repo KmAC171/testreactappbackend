@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const cors = require('cors');
 const port = 3001;
+//when deployed to cloud use host change to 0.0.0.0
 const host = 'localhost';
 const mongoose = require('mongoose');
 const router = require('./router');
