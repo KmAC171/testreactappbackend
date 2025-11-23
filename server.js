@@ -11,6 +11,7 @@ app.use(express.json());
 
 const uri = 'mongodb+srv://rasiksafran:rasiksafranpwd@db1.l5huvca.mongodb.net/?appName=db1';
 
+
 const connect = async () => {
     try {
         await mongoose.connect(uri);
